@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "S/kSEif6zvDwL/HNPRvoH/ACVesUWHE0xxDeMBi12v1KPBb0tpf/AEJ00308soters0xpzYkgdCPLf/DGm4wUw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Sunny\\Desktop\\SpartaGlobal\\Content\\Week-7_C# Project, using WPF,EF\\SpartaGlobal_EF_Project\\SafariExplorer\\SafariExplorerWPF\\SafariExplorerWPF.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sunny\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
