@@ -27,9 +27,15 @@ namespace SE_CodeModel
 	{
 		public int AnimalInfoId { get; set; }
 	
-		public int Size { get; set; }
+		public int Height { get; set; } // change to double 
 
-		public int Weight { get; set; }
+		public int Speed { get; set; }
+
+		public int Mass { get; set; }
+
+		public int Lifespan { get; set; }
+
+		public string Diet { get; set; }
 
 		public int AnimalId { get; set; }
 

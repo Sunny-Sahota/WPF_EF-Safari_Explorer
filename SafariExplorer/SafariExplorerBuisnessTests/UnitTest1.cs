@@ -1,4 +1,5 @@
 using NUnit.Framework;
+using SafariExplorerBuisness;
 
 namespace SafariExplorerBuisnessTests
 {
@@ -9,10 +10,15 @@ namespace SafariExplorerBuisnessTests
 		{
 		}
 
-		[Test]
-		public void Test1()
+		[TestCase]
+		public void TestRandomNumberGenerator()
 		{
-			Assert.Pass();
+			PickAnimal animal = new PickAnimal();
+			var value = animal.RandomNumberGen();
+			
+			Assert.IsTrue(value >= 63 && value <= 68);
+			//Assert.AreEqual(expected: 10, actual: value); // just to see the output
 		}
+		
 	}
 }

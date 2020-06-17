@@ -24,5 +24,10 @@ namespace SafariExplorerWPF
 		{
 			InitializeComponent();
 		}
+
+		private void PopulateTextBox()
+		{
+
+		}
 	}
 }

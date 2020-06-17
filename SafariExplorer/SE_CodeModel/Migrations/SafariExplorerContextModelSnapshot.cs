@@ -43,10 +43,19 @@ namespace SE_CodeModel.Migrations
                     b.Property<int>("AnimalId")
                         .HasColumnType("int");
 
-                    b.Property<int>("Size")
+                    b.Property<string>("Diet")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Height")
                         .HasColumnType("int");
 
-                    b.Property<int>("Weight")
+                    b.Property<int>("Lifespan")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Mass")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Speed")
                         .HasColumnType("int");
 
                     b.HasKey("AnimalInfoId");
