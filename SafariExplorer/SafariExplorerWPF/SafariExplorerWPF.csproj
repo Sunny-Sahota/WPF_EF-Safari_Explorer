@@ -6,4 +6,20 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="BackGround_Savanna.jpg" />
+    <None Remove="Character.png" />
+    <None Remove="Player_Character.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SafariExplorerBuisness\SafariExplorerBuisness.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="BackGround_Savanna.jpg" />
+    <Resource Include="Character.png" />
+    <Resource Include="Player_Character.jpg" />
+  </ItemGroup>
+
 </Project>

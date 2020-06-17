@@ -12,22 +12,32 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using SafariExplorerBuisness;
 
 namespace SafariExplorerWPF
 {
-	/// <summary>
-	/// Interaction logic for MainWindow.xaml
-	/// </summary>
+
 	public partial class MainWindow : Window
 	{
+		private CRUDManager _crudManager = new CRUDManager();
 		public MainWindow()
 		{
 			InitializeComponent();
+			PopulateTextBoxs();
 		}
 
-		private void PopulateTextBox()
+		private void PopulateTextBoxs()
 		{
-
+			_crudManager.UpdateAnimal();
+			if (_crudManager.SelectedAnimal != null && _crudManager.SelectedAnimalInfo != null)
+			{
+				TextBoxAName.Text = _crudManager.SelectedAnimal.AnimalName;
+				TextBoxADiet.Text = _crudManager.SelectedAnimalInfo.Diet;
+				TextBoxAHeight.Text = _crudManager.SelectedAnimalInfo.Height.ToString();
+				TextBoxALifespan.Text = _crudManager.SelectedAnimalInfo.Lifespan.ToString();
+				TextBoxAMass.Text = _crudManager.SelectedAnimalInfo.Mass.ToString();
+				TextBoxASpeed.Text = _crudManager.SelectedAnimalInfo.Speed.ToString();
+			}
 		}
 	}
 }

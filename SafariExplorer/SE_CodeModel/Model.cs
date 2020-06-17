@@ -21,6 +21,7 @@ namespace SE_CodeModel
 		public string AnimalName { get; set; }
 
 		public List<AnimalInfo> AnimalInfos { get; } = new List<AnimalInfo>();
+
 	}
 
 	public class AnimalInfo

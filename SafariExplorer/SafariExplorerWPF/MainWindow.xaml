@@ -5,8 +5,26 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SafariExplorerWPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="MainWindow" Height="720" Width="1280">
+	<Grid>
+		<Grid.Background>
+			<ImageBrush ImageSource="/BackGround_Savanna.jpg"/>
+		</Grid.Background>
+		<Rectangle HorizontalAlignment="Left" Margin="65,214,0,0" VerticalAlignment="Top" Width="300" Height="480">
+			<Rectangle.Fill>
+				<ImageBrush ImageSource="/Character.png"/>
+			</Rectangle.Fill>
+		</Rectangle>
+		<Rectangle HorizontalAlignment="Left" Height="178" Margin="65,31,0,0" Stroke="Black" VerticalAlignment="Top" Width="625" Fill="#4CFFFFFF"/>
+		<TextBox x:Name="TextBoxAName" HorizontalAlignment="Left" Margin="70,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="102" Height="48"/>
+		<TextBox x:Name="TextBoxADiet" HorizontalAlignment="Left" Margin="172,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="102" Height="48"/>
+		<TextBox x:Name="TextBoxAHeight" HorizontalAlignment="Left" Margin="274,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="102" Height="48"/>
+		<TextBox x:Name="TextBoxALifespan" HorizontalAlignment="Left" Margin="376,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="102" Height="48"/>
+		<TextBox x:Name="TextBoxAMass" HorizontalAlignment="Left" Margin="478,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="102" Height="48"/>
+		<TextBox x:Name="TextBoxASpeed" HorizontalAlignment="Left" Margin="573,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="102" Height="48"/>
 
-    </Grid>
+
+
+
+	</Grid>
 </Window>
