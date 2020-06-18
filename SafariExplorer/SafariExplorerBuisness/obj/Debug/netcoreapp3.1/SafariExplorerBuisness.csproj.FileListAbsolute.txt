@@ -14,3 +14,19 @@ C:\Users\Sunny\Desktop\SpartaGlobal\Content\Week-7_C# Project, using WPF,EF\Spar
 C:\Users\Sunny\Desktop\SpartaGlobal\Content\Week-7_C# Project, using WPF,EF\SpartaGlobal_EF_Project\SafariExplorer\SafariExplorerBuisness\bin\Debug\netcoreapp3.1\SE_CodeModel.dll
 C:\Users\Sunny\Desktop\SpartaGlobal\Content\Week-7_C# Project, using WPF,EF\SpartaGlobal_EF_Project\SafariExplorer\SafariExplorerBuisness\bin\Debug\netcoreapp3.1\SE_CodeModel.pdb
 C:\Users\Sunny\Desktop\SpartaGlobal\Content\Week-7_C# Project, using WPF,EF\SpartaGlobal_EF_Project\SafariExplorer\SafariExplorerBuisness\obj\Debug\netcoreapp3.1\SafariExplorerBuisness.csproj.CopyComplete
+C:\Users\Sunny\Desktop\SpartaGlobal\Content\Week-7_New\SpartaGlobal_EF_Project\SafariExplorer\SafariExplorerBuisness\bin\Debug\netcoreapp3.1\SE_CodeModel.exe
+C:\Users\Sunny\Desktop\SpartaGlobal\Content\Week-7_New\SpartaGlobal_EF_Project\SafariExplorer\SafariExplorerBuisness\bin\Debug\netcoreapp3.1\SafariExplorerBuisness.deps.json
+C:\Users\Sunny\Desktop\SpartaGlobal\Content\Week-7_New\SpartaGlobal_EF_Project\SafariExplorer\SafariExplorerBuisness\bin\Debug\netcoreapp3.1\SafariExplorerBuisness.runtimeconfig.json
+C:\Users\Sunny\Desktop\SpartaGlobal\Content\Week-7_New\SpartaGlobal_EF_Project\SafariExplorer\SafariExplorerBuisness\bin\Debug\netcoreapp3.1\SafariExplorerBuisness.runtimeconfig.dev.json
+C:\Users\Sunny\Desktop\SpartaGlobal\Content\Week-7_New\SpartaGlobal_EF_Project\SafariExplorer\SafariExplorerBuisness\bin\Debug\netcoreapp3.1\SafariExplorerBuisness.dll
+C:\Users\Sunny\Desktop\SpartaGlobal\Content\Week-7_New\SpartaGlobal_EF_Project\SafariExplorer\SafariExplorerBuisness\bin\Debug\netcoreapp3.1\SafariExplorerBuisness.pdb
+C:\Users\Sunny\Desktop\SpartaGlobal\Content\Week-7_New\SpartaGlobal_EF_Project\SafariExplorer\SafariExplorerBuisness\bin\Debug\netcoreapp3.1\SE_CodeModel.dll
+C:\Users\Sunny\Desktop\SpartaGlobal\Content\Week-7_New\SpartaGlobal_EF_Project\SafariExplorer\SafariExplorerBuisness\bin\Debug\netcoreapp3.1\SE_CodeModel.pdb
+C:\Users\Sunny\Desktop\SpartaGlobal\Content\Week-7_New\SpartaGlobal_EF_Project\SafariExplorer\SafariExplorerBuisness\obj\Debug\netcoreapp3.1\SafariExplorerBuisness.csprojAssemblyReference.cache
+C:\Users\Sunny\Desktop\SpartaGlobal\Content\Week-7_New\SpartaGlobal_EF_Project\SafariExplorer\SafariExplorerBuisness\obj\Debug\netcoreapp3.1\SafariExplorerBuisness.AssemblyInfoInputs.cache
+C:\Users\Sunny\Desktop\SpartaGlobal\Content\Week-7_New\SpartaGlobal_EF_Project\SafariExplorer\SafariExplorerBuisness\obj\Debug\netcoreapp3.1\SafariExplorerBuisness.AssemblyInfo.cs
+C:\Users\Sunny\Desktop\SpartaGlobal\Content\Week-7_New\SpartaGlobal_EF_Project\SafariExplorer\SafariExplorerBuisness\obj\Debug\netcoreapp3.1\SafariExplorerBuisness.csproj.CoreCompileInputs.cache
+C:\Users\Sunny\Desktop\SpartaGlobal\Content\Week-7_New\SpartaGlobal_EF_Project\SafariExplorer\SafariExplorerBuisness\obj\Debug\netcoreapp3.1\SafariExplorerBuisness.csproj.CopyComplete
+C:\Users\Sunny\Desktop\SpartaGlobal\Content\Week-7_New\SpartaGlobal_EF_Project\SafariExplorer\SafariExplorerBuisness\obj\Debug\netcoreapp3.1\SafariExplorerBuisness.dll
+C:\Users\Sunny\Desktop\SpartaGlobal\Content\Week-7_New\SpartaGlobal_EF_Project\SafariExplorer\SafariExplorerBuisness\obj\Debug\netcoreapp3.1\SafariExplorerBuisness.pdb
+C:\Users\Sunny\Desktop\SpartaGlobal\Content\Week-7_New\SpartaGlobal_EF_Project\SafariExplorer\SafariExplorerBuisness\obj\Debug\netcoreapp3.1\SafariExplorerBuisness.genruntimeconfig.cache

@@ -4972,11 +4972,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sunny\\Desktop\\SpartaGlobal\\Content\\Week-7_C# Project, using WPF,EF\\SpartaGlobal_EF_Project\\SafariExplorer\\SafariExplorerWPF\\SafariExplorerWPF.csproj",
+      "projectUniqueName": "C:\\Users\\Sunny\\Desktop\\SpartaGlobal\\Content\\Week-7_New\\SpartaGlobal_EF_Project\\SafariExplorer\\SafariExplorerWPF\\SafariExplorerWPF.csproj",
       "projectName": "SafariExplorerWPF",
-      "projectPath": "C:\\Users\\Sunny\\Desktop\\SpartaGlobal\\Content\\Week-7_C# Project, using WPF,EF\\SpartaGlobal_EF_Project\\SafariExplorer\\SafariExplorerWPF\\SafariExplorerWPF.csproj",
+      "projectPath": "C:\\Users\\Sunny\\Desktop\\SpartaGlobal\\Content\\Week-7_New\\SpartaGlobal_EF_Project\\SafariExplorer\\SafariExplorerWPF\\SafariExplorerWPF.csproj",
       "packagesPath": "C:\\Users\\Sunny\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sunny\\Desktop\\SpartaGlobal\\Content\\Week-7_C# Project, using WPF,EF\\SpartaGlobal_EF_Project\\SafariExplorer\\SafariExplorerWPF\\obj\\",
+      "outputPath": "C:\\Users\\Sunny\\Desktop\\SpartaGlobal\\Content\\Week-7_New\\SpartaGlobal_EF_Project\\SafariExplorer\\SafariExplorerWPF\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sunny\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4992,8 +4992,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Sunny\\Desktop\\SpartaGlobal\\Content\\Week-7_C# Project, using WPF,EF\\SpartaGlobal_EF_Project\\SafariExplorer\\SafariExplorerBuisness\\SafariExplorerBuisness.csproj": {
-              "projectPath": "C:\\Users\\Sunny\\Desktop\\SpartaGlobal\\Content\\Week-7_C# Project, using WPF,EF\\SpartaGlobal_EF_Project\\SafariExplorer\\SafariExplorerBuisness\\SafariExplorerBuisness.csproj"
+            "C:\\Users\\Sunny\\Desktop\\SpartaGlobal\\Content\\Week-7_New\\SpartaGlobal_EF_Project\\SafariExplorer\\SafariExplorerBuisness\\SafariExplorerBuisness.csproj": {
+              "projectPath": "C:\\Users\\Sunny\\Desktop\\SpartaGlobal\\Content\\Week-7_New\\SpartaGlobal_EF_Project\\SafariExplorer\\SafariExplorerBuisness\\SafariExplorerBuisness.csproj"
             }
           }
         }

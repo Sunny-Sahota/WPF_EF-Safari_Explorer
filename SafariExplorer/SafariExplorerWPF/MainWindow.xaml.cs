@@ -19,25 +19,27 @@ namespace SafariExplorerWPF
 
 	public partial class MainWindow : Window
 	{
-		private CRUDManager _crudManager = new CRUDManager();
+		
 		public MainWindow()
 		{
 			InitializeComponent();
-			PopulateTextBoxs();
+			Application.Current.MainWindow = this;
+			
 		}
 
-		private void PopulateTextBoxs()
+		private void BtnStartSafari_Click(object sender, RoutedEventArgs e)
 		{
-			_crudManager.UpdateAnimal();
-			if (_crudManager.SelectedAnimal != null && _crudManager.SelectedAnimalInfo != null)
-			{
-				TextBoxAName.Text = _crudManager.SelectedAnimal.AnimalName;
-				TextBoxADiet.Text = _crudManager.SelectedAnimalInfo.Diet;
-				TextBoxAHeight.Text = _crudManager.SelectedAnimalInfo.Height.ToString();
-				TextBoxALifespan.Text = _crudManager.SelectedAnimalInfo.Lifespan.ToString();
-				TextBoxAMass.Text = _crudManager.SelectedAnimalInfo.Mass.ToString();
-				TextBoxASpeed.Text = _crudManager.SelectedAnimalInfo.Speed.ToString();
-			}
+			_mainFrame.Navigate(new HomePage());
+		}
+
+		private void BtnStartQuiz_Click(object sender, RoutedEventArgs e)
+		{
+			_mainFrame.Navigate(new SafariQuiz());
+		}
+
+		private void BtnClickOpenJournal(object sender, RoutedEventArgs e)
+		{
+			_mainFrame.Navigate(new JournalPage());
 		}
 	}
 }

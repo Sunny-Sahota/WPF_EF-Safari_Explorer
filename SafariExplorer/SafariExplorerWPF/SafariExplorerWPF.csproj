@@ -9,7 +9,6 @@
   <ItemGroup>
     <None Remove="BackGround_Savanna.jpg" />
     <None Remove="Character.png" />
-    <None Remove="Player_Character.jpg" />
   </ItemGroup>
 
   <ItemGroup>
@@ -19,7 +18,6 @@
   <ItemGroup>
     <Resource Include="BackGround_Savanna.jpg" />
     <Resource Include="Character.png" />
-    <Resource Include="Player_Character.jpg" />
   </ItemGroup>
 
 </Project>
