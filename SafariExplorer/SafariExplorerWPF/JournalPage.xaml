@@ -13,12 +13,20 @@
 			<Grid.Background>
 				<ImageBrush ImageSource="/BackGround_Savanna.jpg"/>
 			</Grid.Background>
-			<TextBlock HorizontalAlignment="Center" Margin="0,31,0,0" Text="Journal" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="36"/>
-			<Rectangle HorizontalAlignment="Left" Height="398" Margin="59,118,0,0" Stroke="Black" VerticalAlignment="Top" Width="691" Fill="#7E000000"/>
-			<ListBox x:Name="ListBoxAnimals" Margin="66,124,837,211" SelectionChanged="ListBoxAnimals_SelectionChanged"/>
-			<Button x:Name="BtnOpenAddWindow" Content="Add" HorizontalAlignment="Left" Margin="284,562,0,0" VerticalAlignment="Top" Height="74" Width="120" Click="BtnClick_OpenAddWindow"/>
-			<Label x:Name="LabelName" Content="Animal Name" HorizontalAlignment="Left" Margin="448,181,0,0" VerticalAlignment="Top" Height="51" Width="153" FontSize="24" BorderBrush="Black" Background="#FFDDF2D3"/>
-			<Label x:Name="LabelDiet" Content="Diet" HorizontalAlignment="Left" Margin="448,237,0,0" VerticalAlignment="Top" Height="51" Width="153" FontSize="24" Background="#FFDDF2D3">
+			<TextBlock HorizontalAlignment="Center" Margin="0,31,0,0" Text="Journal Records" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="72" FontFamily="Castellar"/>
+			<Rectangle HorizontalAlignment="Center" Height="398" Margin="0,118,0,0" Stroke="Black" VerticalAlignment="Top" Width="692">
+				<Rectangle.Fill>
+					<ImageBrush ImageSource="/Paper_Texture.png"/>
+				</Rectangle.Fill>
+			</Rectangle>
+			<ListBox x:Name="ListBoxAnimals" Margin="300,124,603,211" SelectionChanged="ListBoxAnimals_SelectionChanged" Background="#A5FFFFFF"/>
+			<Button x:Name="BtnOpenAddWindow" Content="Add" HorizontalAlignment="Left" Margin="275,562,0,0" VerticalAlignment="Top" Height="88" Width="143" Click="BtnClick_OpenAddWindow" BorderBrush="#4C000000" FontFamily="Freestyle Script" FontSize="48">
+				<Button.Background>
+					<ImageBrush ImageSource="/Paper_Texture.png"/>
+				</Button.Background>
+			</Button>
+			<Label x:Name="LabelName" Content="Animal Name" HorizontalAlignment="Left" Margin="682,181,0,0" VerticalAlignment="Top" Height="51" Width="153" FontSize="36" BorderBrush="Black" Background="#4C000000" FontFamily="Freestyle Script"/>
+			<Label x:Name="LabelDiet" Content="Diet" HorizontalAlignment="Left" Margin="682,237,0,0" VerticalAlignment="Top" Height="51" Width="153" FontSize="36" Background="#4C000000" FontFamily="Freestyle Script">
 				<Label.BorderBrush>
 					<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
 						<GradientStop Color="Black"/>
@@ -26,7 +34,7 @@
 					</LinearGradientBrush>
 				</Label.BorderBrush>
 			</Label>
-			<Label x:Name="LabelHeight" Content="Height" HorizontalAlignment="Left" Margin="448,292,0,0" VerticalAlignment="Top" Height="51" Width="153" FontSize="24" Background="#FFDDF2D3">
+			<Label x:Name="LabelHeight" Content="Height (m)" HorizontalAlignment="Left" Margin="682,292,0,0" VerticalAlignment="Top" Height="51" Width="153" FontSize="36" Background="#4C000000" FontFamily="Freestyle Script">
 				<Label.BorderBrush>
 					<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
 						<GradientStop Color="Black"/>
@@ -34,7 +42,7 @@
 					</LinearGradientBrush>
 				</Label.BorderBrush>
 			</Label>
-			<Label x:Name="LabelLifeSpan" Content="Lifespan" HorizontalAlignment="Left" Margin="448,347,0,0" VerticalAlignment="Top" Height="51" Width="153" FontSize="24" Background="#FFDDF2D3">
+			<Label x:Name="LabelLifeSpan" Content="Lifespan (yrs)" HorizontalAlignment="Left" Margin="682,347,0,0" VerticalAlignment="Top" Height="51" Width="153" FontSize="36" Background="#4C000000" FontFamily="Freestyle Script">
 				<Label.BorderBrush>
 					<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
 						<GradientStop Color="Black"/>
@@ -42,7 +50,7 @@
 					</LinearGradientBrush>
 				</Label.BorderBrush>
 			</Label>
-			<Label x:Name="LabelMass" Content="Mass" HorizontalAlignment="Left" Margin="448,403,0,0" VerticalAlignment="Top" Height="51" Width="153" FontSize="24" Background="#FFDDF2D3">
+			<Label x:Name="LabelMass" Content="Mass (kg)" HorizontalAlignment="Left" Margin="682,403,0,0" VerticalAlignment="Top" Height="51" Width="153" FontSize="36" Background="#4C000000" FontFamily="Freestyle Script">
 				<Label.BorderBrush>
 					<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
 						<GradientStop Color="Black"/>
@@ -50,7 +58,7 @@
 					</LinearGradientBrush>
 				</Label.BorderBrush>
 			</Label>
-			<Label x:Name="LabelSpeed" Content="Speed" HorizontalAlignment="Left" Margin="448,458,0,0" VerticalAlignment="Top" Height="51" Width="153" FontSize="24" Background="#FFDDF2D3">
+			<Label x:Name="LabelSpeed" Content="Speed (km/h)" HorizontalAlignment="Left" Margin="682,458,0,0" VerticalAlignment="Top" Height="51" Width="153" FontSize="36" Background="#4C000000" FontFamily="Freestyle Script">
 				<Label.BorderBrush>
 					<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
 						<GradientStop Color="Black"/>
@@ -58,17 +66,29 @@
 					</LinearGradientBrush>
 				</Label.BorderBrush>
 			</Label>
-			<TextBox x:Name="TextBoxName" HorizontalAlignment="Left" Margin="601,181,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="142" Height="51" FontSize="20"/>
-			<TextBox x:Name="TextBoxDiet" HorizontalAlignment="Left" Margin="601,237,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="142" Height="51" FontSize="20"/>
-			<TextBox x:Name="TextBoxHeight" HorizontalAlignment="Left" Margin="601,292,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="142" Height="51" FontSize="20"/>
-			<TextBox x:Name="TextBoxLifespan" HorizontalAlignment="Left" Margin="601,347,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="142" Height="51" FontSize="20"/>
-			<TextBox x:Name="TextBoxMass" HorizontalAlignment="Left" Margin="601,403,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="142" Height="51" FontSize="20"/>
-			<TextBox x:Name="TextBoxSpeed" HorizontalAlignment="Left" Margin="601,458,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="142" Height="51" FontSize="20"/>
-			<Button x:Name="BtnUpdate" Content="Update" HorizontalAlignment="Left" Margin="623,562,0,0" VerticalAlignment="Top" Height="74" Width="120" Click="BtnUpdate_Click"/>
-			<Label x:Name="Labelid" Content="ID" HorizontalAlignment="Left" Margin="448,126,0,0" VerticalAlignment="Top" Height="51" Width="153" FontSize="24" BorderBrush="Black" Background="#FFDDF2D3"/>
-			<TextBox x:Name="TextBoxID" HorizontalAlignment="Left" Margin="601,126,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="142" Height="51" FontSize="20" IsEnabled="False"/>
-			<Button x:Name="BtnRefresh" Content="Refresh" HorizontalAlignment="Left" Margin="448,562,0,0" VerticalAlignment="Top" Height="74" Width="120" Click="BtnClickRefresh"/>
-			<Button x:Name="BtnDelete" Content="Delete" HorizontalAlignment="Left" Height="74" Margin="794,562,0,0" VerticalAlignment="Top" Width="120" Click="BtnClickDelete"/>
+			<TextBox x:Name="TextBoxName" HorizontalAlignment="Left" Margin="835,181,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="142" Height="51" FontSize="20" Background="#D8F1F8E8"/>
+			<TextBox x:Name="TextBoxDiet" HorizontalAlignment="Left" Margin="835,237,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="142" Height="51" FontSize="20" Background="#D8F1F8E8"/>
+			<TextBox x:Name="TextBoxHeight" HorizontalAlignment="Left" Margin="835,292,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="142" Height="51" FontSize="20" Background="#D8F1F8E8"/>
+			<TextBox x:Name="TextBoxLifespan" HorizontalAlignment="Left" Margin="835,347,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="142" Height="51" FontSize="20" Background="#D8F1F8E8"/>
+			<TextBox x:Name="TextBoxMass" HorizontalAlignment="Left" Margin="835,403,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="142" Height="51" FontSize="20" Background="#D8F1F8E8"/>
+			<TextBox x:Name="TextBoxSpeed" HorizontalAlignment="Left" Margin="835,458,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="142" Height="51" FontSize="20" Background="#D8F1F8E8"/>
+			<Button x:Name="BtnUpdate" Content="Update" HorizontalAlignment="Left" Margin="678,562,0,0" VerticalAlignment="Top" Height="88" Width="143" Click="BtnUpdate_Click" BorderBrush="#4C000000" FontFamily="Freestyle Script" FontSize="48">
+				<Button.Background>
+					<ImageBrush ImageSource="/Paper_Texture.png"/>
+				</Button.Background>
+			</Button>
+			<Label x:Name="Labelid" Content="ID" HorizontalAlignment="Left" Margin="682,126,0,0" VerticalAlignment="Top" Height="51" Width="153" FontSize="36" BorderBrush="Black" Background="#4C000000" FontFamily="Freestyle Script"/>
+			<TextBox x:Name="TextBoxID" HorizontalAlignment="Left" Margin="835,126,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="142" Height="51" FontSize="20" IsEnabled="False"/>
+			<Button x:Name="BtnRefresh" Content="Refresh" HorizontalAlignment="Left" Margin="470,562,0,0" VerticalAlignment="Top" Height="88" Width="143" Click="BtnClickRefresh" BorderBrush="#4C000000" FontFamily="Freestyle Script" FontSize="48">
+				<Button.Background>
+					<ImageBrush ImageSource="/Paper_Texture.png"/>
+				</Button.Background>
+			</Button>
+			<Button x:Name="BtnDelete" Content="Delete" HorizontalAlignment="Left" Height="88" Margin="881,562,0,0" VerticalAlignment="Top" Width="143" Click="BtnClickDelete" BorderBrush="#4C000000" FontFamily="Freestyle Script" FontSize="48">
+				<Button.Background>
+					<ImageBrush ImageSource="/Paper_Texture.png"/>
+				</Button.Background>
+			</Button>
 
 		</Grid>
 

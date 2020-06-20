@@ -5,31 +5,30 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SafariExplorerWPF"
         mc:Ignorable="d"
-        Title="AddAnimalWindow" Height="400" Width="400">
+        Title="AddAnimalWindow" Height="600" Width="500">
 	<StackPanel>
 		<StackPanel.Background>
-			<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-				<GradientStop Color="#FFDDF2D3"/>
-				<GradientStop Color="White" Offset="0.273"/>
-			</LinearGradientBrush>
+			<ImageBrush ImageSource="/Paper_Texture.png"/>
 		</StackPanel.Background>
 		<Frame x:Name="_AddAnimalWin"/>
 		<Grid Height="31">
-			<Label x:Name="LabelName" Content="Animal Name" Margin="15,57,255,-66" Background="#FFDDF2D3" FontSize="18"/>
-			<Label x:Name="LabelDiet" Content="Diet" Margin="15,102,255,-111" Background="#FFDDF2D3" FontSize="18"/>
-			<Label x:Name="LabelHeight" Content="Height" Margin="15,147,255,-156" Background="#FFDDF2D3" FontSize="18"/>
-			<Label x:Name="LabelLifespan" Content="Lifespan" Margin="15,192,255,-201" Background="#FFDDF2D3" FontSize="18"/>
-			<Label x:Name="LabelMass" Content="Mass" Margin="15,237,255,-246" Background="#FFDDF2D3" FontSize="18"/>
-			<Label x:Name="LabelSpeed" Content="Speed" Margin="15,282,255,-291" Background="#FFDDF2D3" FontSize="18"/>
-			
+			<Label x:Name="LabelName" Content="Animal Name" Margin="14,88,256,-117" Background="#4C000000" FontSize="48" FontFamily="Freestyle Script"/>
+			<Label x:Name="LabelDiet" Content="Diet" Margin="14,153,256,-178" Background="#4C000000" FontSize="48" FontFamily="Freestyle Script"/>
+			<Label x:Name="LabelHeight" Content="Height (m)" Margin="14,214,256,-243" Background="#4C000000" FontSize="48" FontFamily="Freestyle Script"/>
+			<Label x:Name="LabelLifespan" Content="Lifespan (yrs)" Margin="14,279,256,-308" Background="#4C000000" FontSize="48" FontFamily="Freestyle Script"/>
+			<Label x:Name="LabelMass" Content="Mass (kg)" Margin="14,344,256,-373" Background="#4C000000" FontSize="48" FontFamily="Freestyle Script"/>
+			<Label x:Name="LabelSpeed" Content="Speed (km/h)" Margin="14,409,256,-438" Background="#4C000000" FontSize="48" FontFamily="Freestyle Script"/>
 
-			<TextBox x:Name="TxtName" TextWrapping="Wrap" Margin="150,57,15,-66"/>
-			<Button x:Name="BtnAddNew" Content="Add" Margin="102,327,108,-326" Click="BtnAddNew_Click"/>
-			<TextBox x:Name="TxtDiet" TextWrapping="Wrap" Margin="150,102,15,-111"/>
-			<TextBox x:Name="TxtHeight" TextWrapping="Wrap" Margin="150,147,15,-156"/>
-			<TextBox x:Name="TxtLifespan" TextWrapping="Wrap" Margin="150,192,15,-201"/>
-			<TextBox x:Name="TxtMass" TextWrapping="Wrap" Margin="150,237,15,-246"/>
-			<TextBox x:Name="TxtSpeed" TextWrapping="Wrap" Margin="150,282,15,-291"/>
+
+			<TextBox x:Name="TxtName" TextWrapping="Wrap" Margin="250,88,16,-117" Background="#CCFFFFFF"/>
+			<Button x:Name="BtnAddNew" Content="Create" Margin="154,488,155,-526" Click="BtnAddNew_Click" Background="#B2FFFDFD" FontFamily="Freestyle Script" FontSize="48"/>
+			<TextBox x:Name="TxtDiet" TextWrapping="Wrap" Margin="250,153,16,-178" Background="#CCFFFFFF"/>
+			<TextBox x:Name="TxtHeight" TextWrapping="Wrap" Margin="250,214,16,-243" Background="#CCFFFFFF"/>
+			<TextBox x:Name="TxtLifespan" TextWrapping="Wrap" Margin="250,279,16,-308" Background="#CCFFFFFF"/>
+			<TextBox x:Name="TxtMass" TextWrapping="Wrap" Margin="250,344,16,-373" Background="#CCFFFFFF"/>
+			<TextBox x:Name="TxtSpeed" TextWrapping="Wrap" Margin="250,409,16,-438" Background="#CCFFFFFF"/>
+		
+		<TextBlock x:Name="TxtBlockCreateAnimal" Text="Create Animal" TextWrapping="Wrap" Margin="14,16,16,-31" FontFamily="Castellar" FontSize="48" HorizontalAlignment="Center"/>
 		</Grid>
 	</StackPanel>
 </Window>
