@@ -5006,11 +5006,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sunny\\Desktop\\SpartaGlobal\\Content\\Week-7_New\\SpartaGlobal_EF_Project\\SafariExplorer\\SE_CodeModel\\SE_CodeModel.csproj",
+      "projectUniqueName": "C:\\Users\\Sunny\\Desktop\\SpartaGlobal\\Content\\Week-7_C# Project, using WPF,EF\\SpartaGlobal_EF_Project\\SafariExplorer\\SE_CodeModel\\SE_CodeModel.csproj",
       "projectName": "SE_CodeModel",
-      "projectPath": "C:\\Users\\Sunny\\Desktop\\SpartaGlobal\\Content\\Week-7_New\\SpartaGlobal_EF_Project\\SafariExplorer\\SE_CodeModel\\SE_CodeModel.csproj",
+      "projectPath": "C:\\Users\\Sunny\\Desktop\\SpartaGlobal\\Content\\Week-7_C# Project, using WPF,EF\\SpartaGlobal_EF_Project\\SafariExplorer\\SE_CodeModel\\SE_CodeModel.csproj",
       "packagesPath": "C:\\Users\\Sunny\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sunny\\Desktop\\SpartaGlobal\\Content\\Week-7_New\\SpartaGlobal_EF_Project\\SafariExplorer\\SE_CodeModel\\obj\\",
+      "outputPath": "C:\\Users\\Sunny\\Desktop\\SpartaGlobal\\Content\\Week-7_C# Project, using WPF,EF\\SpartaGlobal_EF_Project\\SafariExplorer\\SE_CodeModel\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sunny\\AppData\\Roaming\\NuGet\\NuGet.Config",

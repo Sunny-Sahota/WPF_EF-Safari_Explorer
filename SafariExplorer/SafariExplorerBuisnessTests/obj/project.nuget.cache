@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RvkjMslXSb9FgaQyQkrJHORfyJdsqP5Cxgps6/UGaSHr8jl4QWeU0E0JtVVPJ8Ii7Hw1iUIifk57Ti+mQOudnQ==",
+  "dgSpecHash": "kghyWjgAIdKQKEMJERQQ+zMW3F6St54N/9f9UELpcrAB4LcZhoGMIU30UXQS31ZJxF6EEWsDXewfLLjEQ2p5LQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sunny\\Desktop\\SpartaGlobal\\Content\\Week-7_New\\SpartaGlobal_EF_Project\\SafariExplorer\\SafariExplorerBuisnessTests\\SafariExplorerBuisnessTests.csproj",
+  "projectFilePath": "C:\\Users\\Sunny\\Desktop\\SpartaGlobal\\Content\\Week-7_C# Project, using WPF,EF\\SpartaGlobal_EF_Project\\SafariExplorer\\SafariExplorerBuisnessTests\\SafariExplorerBuisnessTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sunny\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Sunny\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sunny\\Desktop\\SpartaGlobal\\Content\\Week-7_New\\SpartaGlobal_EF_Project\\SafariExplorer\\SafariExplorerWPF\\SafariExplorerWPF.csproj": {}
+    "C:\\Users\\Sunny\\Desktop\\SpartaGlobal\\Content\\Week-7_C# Project, using WPF,EF\\SpartaGlobal_EF_Project\\SafariExplorer\\SafariExplorerWPF\\SafariExplorerWPF.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sunny\\Desktop\\SpartaGlobal\\Content\\Week-7_New\\SpartaGlobal_EF_Project\\SafariExplorer\\SafariExplorerBuisness\\SafariExplorerBuisness.csproj": {
+    "C:\\Users\\Sunny\\Desktop\\SpartaGlobal\\Content\\Week-7_C# Project, using WPF,EF\\SpartaGlobal_EF_Project\\SafariExplorer\\SafariExplorerBuisness\\SafariExplorerBuisness.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sunny\\Desktop\\SpartaGlobal\\Content\\Week-7_New\\SpartaGlobal_EF_Project\\SafariExplorer\\SafariExplorerBuisness\\SafariExplorerBuisness.csproj",
+        "projectUniqueName": "C:\\Users\\Sunny\\Desktop\\SpartaGlobal\\Content\\Week-7_C# Project, using WPF,EF\\SpartaGlobal_EF_Project\\SafariExplorer\\SafariExplorerBuisness\\SafariExplorerBuisness.csproj",
         "projectName": "SafariExplorerBuisness",
-        "projectPath": "C:\\Users\\Sunny\\Desktop\\SpartaGlobal\\Content\\Week-7_New\\SpartaGlobal_EF_Project\\SafariExplorer\\SafariExplorerBuisness\\SafariExplorerBuisness.csproj",
+        "projectPath": "C:\\Users\\Sunny\\Desktop\\SpartaGlobal\\Content\\Week-7_C# Project, using WPF,EF\\SpartaGlobal_EF_Project\\SafariExplorer\\SafariExplorerBuisness\\SafariExplorerBuisness.csproj",
         "packagesPath": "C:\\Users\\Sunny\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sunny\\Desktop\\SpartaGlobal\\Content\\Week-7_New\\SpartaGlobal_EF_Project\\SafariExplorer\\SafariExplorerBuisness\\obj\\",
+        "outputPath": "C:\\Users\\Sunny\\Desktop\\SpartaGlobal\\Content\\Week-7_C# Project, using WPF,EF\\SpartaGlobal_EF_Project\\SafariExplorer\\SafariExplorerBuisness\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sunny\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Sunny\\Desktop\\SpartaGlobal\\Content\\Week-7_New\\SpartaGlobal_EF_Project\\SafariExplorer\\SE_CodeModel\\SE_CodeModel.csproj": {
-                "projectPath": "C:\\Users\\Sunny\\Desktop\\SpartaGlobal\\Content\\Week-7_New\\SpartaGlobal_EF_Project\\SafariExplorer\\SE_CodeModel\\SE_CodeModel.csproj"
+              "C:\\Users\\Sunny\\Desktop\\SpartaGlobal\\Content\\Week-7_C# Project, using WPF,EF\\SpartaGlobal_EF_Project\\SafariExplorer\\SE_CodeModel\\SE_CodeModel.csproj": {
+                "projectPath": "C:\\Users\\Sunny\\Desktop\\SpartaGlobal\\Content\\Week-7_C# Project, using WPF,EF\\SpartaGlobal_EF_Project\\SafariExplorer\\SE_CodeModel\\SE_CodeModel.csproj"
               }
             }
           }
@@ -74,14 +74,14 @@
         }
       }
     },
-    "C:\\Users\\Sunny\\Desktop\\SpartaGlobal\\Content\\Week-7_New\\SpartaGlobal_EF_Project\\SafariExplorer\\SafariExplorerWPF\\SafariExplorerWPF.csproj": {
+    "C:\\Users\\Sunny\\Desktop\\SpartaGlobal\\Content\\Week-7_C# Project, using WPF,EF\\SpartaGlobal_EF_Project\\SafariExplorer\\SafariExplorerWPF\\SafariExplorerWPF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sunny\\Desktop\\SpartaGlobal\\Content\\Week-7_New\\SpartaGlobal_EF_Project\\SafariExplorer\\SafariExplorerWPF\\SafariExplorerWPF.csproj",
+        "projectUniqueName": "C:\\Users\\Sunny\\Desktop\\SpartaGlobal\\Content\\Week-7_C# Project, using WPF,EF\\SpartaGlobal_EF_Project\\SafariExplorer\\SafariExplorerWPF\\SafariExplorerWPF.csproj",
         "projectName": "SafariExplorerWPF",
-        "projectPath": "C:\\Users\\Sunny\\Desktop\\SpartaGlobal\\Content\\Week-7_New\\SpartaGlobal_EF_Project\\SafariExplorer\\SafariExplorerWPF\\SafariExplorerWPF.csproj",
+        "projectPath": "C:\\Users\\Sunny\\Desktop\\SpartaGlobal\\Content\\Week-7_C# Project, using WPF,EF\\SpartaGlobal_EF_Project\\SafariExplorer\\SafariExplorerWPF\\SafariExplorerWPF.csproj",
         "packagesPath": "C:\\Users\\Sunny\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sunny\\Desktop\\SpartaGlobal\\Content\\Week-7_New\\SpartaGlobal_EF_Project\\SafariExplorer\\SafariExplorerWPF\\obj\\",
+        "outputPath": "C:\\Users\\Sunny\\Desktop\\SpartaGlobal\\Content\\Week-7_C# Project, using WPF,EF\\SpartaGlobal_EF_Project\\SafariExplorer\\SafariExplorerWPF\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sunny\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -97,8 +97,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Sunny\\Desktop\\SpartaGlobal\\Content\\Week-7_New\\SpartaGlobal_EF_Project\\SafariExplorer\\SafariExplorerBuisness\\SafariExplorerBuisness.csproj": {
-                "projectPath": "C:\\Users\\Sunny\\Desktop\\SpartaGlobal\\Content\\Week-7_New\\SpartaGlobal_EF_Project\\SafariExplorer\\SafariExplorerBuisness\\SafariExplorerBuisness.csproj"
+              "C:\\Users\\Sunny\\Desktop\\SpartaGlobal\\Content\\Week-7_C# Project, using WPF,EF\\SpartaGlobal_EF_Project\\SafariExplorer\\SafariExplorerBuisness\\SafariExplorerBuisness.csproj": {
+                "projectPath": "C:\\Users\\Sunny\\Desktop\\SpartaGlobal\\Content\\Week-7_C# Project, using WPF,EF\\SpartaGlobal_EF_Project\\SafariExplorer\\SafariExplorerBuisness\\SafariExplorerBuisness.csproj"
               }
             }
           }
@@ -139,14 +139,14 @@
         }
       }
     },
-    "C:\\Users\\Sunny\\Desktop\\SpartaGlobal\\Content\\Week-7_New\\SpartaGlobal_EF_Project\\SafariExplorer\\SE_CodeModel\\SE_CodeModel.csproj": {
+    "C:\\Users\\Sunny\\Desktop\\SpartaGlobal\\Content\\Week-7_C# Project, using WPF,EF\\SpartaGlobal_EF_Project\\SafariExplorer\\SE_CodeModel\\SE_CodeModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sunny\\Desktop\\SpartaGlobal\\Content\\Week-7_New\\SpartaGlobal_EF_Project\\SafariExplorer\\SE_CodeModel\\SE_CodeModel.csproj",
+        "projectUniqueName": "C:\\Users\\Sunny\\Desktop\\SpartaGlobal\\Content\\Week-7_C# Project, using WPF,EF\\SpartaGlobal_EF_Project\\SafariExplorer\\SE_CodeModel\\SE_CodeModel.csproj",
         "projectName": "SE_CodeModel",
-        "projectPath": "C:\\Users\\Sunny\\Desktop\\SpartaGlobal\\Content\\Week-7_New\\SpartaGlobal_EF_Project\\SafariExplorer\\SE_CodeModel\\SE_CodeModel.csproj",
+        "projectPath": "C:\\Users\\Sunny\\Desktop\\SpartaGlobal\\Content\\Week-7_C# Project, using WPF,EF\\SpartaGlobal_EF_Project\\SafariExplorer\\SE_CodeModel\\SE_CodeModel.csproj",
         "packagesPath": "C:\\Users\\Sunny\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sunny\\Desktop\\SpartaGlobal\\Content\\Week-7_New\\SpartaGlobal_EF_Project\\SafariExplorer\\SE_CodeModel\\obj\\",
+        "outputPath": "C:\\Users\\Sunny\\Desktop\\SpartaGlobal\\Content\\Week-7_C# Project, using WPF,EF\\SpartaGlobal_EF_Project\\SafariExplorer\\SE_CodeModel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sunny\\AppData\\Roaming\\NuGet\\NuGet.Config",

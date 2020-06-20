@@ -87,5 +87,17 @@ namespace SafariExplorerWPF
 		{
 			PopulateListBox();
 		}
+
+		private void BtnClickDelete(object sender, RoutedEventArgs e)
+		{
+			
+			_crudManager.DeleteAnimal(aId:Int32.Parse(TextBoxID.Text));
+
+			ListBoxAnimals.ItemsSource = null; //Clears list box
+			PopulateListBox(); //Updates 
+			//ListBoxAnimals.SelectedItem = _crudManager.SelectedAnimalInfo;
+			//PopulateAnimalFields();
+
+		}
 	}
 }
