@@ -24,7 +24,7 @@ namespace SE_CodeModel
 
 	}
 
-	public class AnimalInfo
+	public partial class AnimalInfo
 	{
 		public int AnimalInfoId { get; set; }
 	

@@ -112,3 +112,5 @@ C:\Users\Sunny\Desktop\SpartaGlobal\Content\Week-7_New\SpartaGlobal_EF_Project\S
 C:\Users\Sunny\Desktop\SpartaGlobal\Content\Week-7_New\SpartaGlobal_EF_Project\SafariExplorer\SafariExplorerWPF\obj\Debug\netcoreapp3.1\SafariQuiz.baml
 C:\Users\Sunny\Desktop\SpartaGlobal\Content\Week-7_New\SpartaGlobal_EF_Project\SafariExplorer\SafariExplorerWPF\obj\Debug\netcoreapp3.1\JournalPage.g.cs
 C:\Users\Sunny\Desktop\SpartaGlobal\Content\Week-7_New\SpartaGlobal_EF_Project\SafariExplorer\SafariExplorerWPF\obj\Debug\netcoreapp3.1\JournalPage.baml
+C:\Users\Sunny\Desktop\SpartaGlobal\Content\Week-7_New\SpartaGlobal_EF_Project\SafariExplorer\SafariExplorerWPF\obj\Debug\netcoreapp3.1\AddAnimalWindow.g.cs
+C:\Users\Sunny\Desktop\SpartaGlobal\Content\Week-7_New\SpartaGlobal_EF_Project\SafariExplorer\SafariExplorerWPF\obj\Debug\netcoreapp3.1\AddAnimalWindow.baml

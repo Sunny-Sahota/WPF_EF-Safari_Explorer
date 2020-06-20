@@ -86,7 +86,6 @@ C:\Users\Sunny\Desktop\SpartaGlobal\Content\Week-7_New\SpartaGlobal_EF_Project\S
 C:\Users\Sunny\Desktop\SpartaGlobal\Content\Week-7_New\SpartaGlobal_EF_Project\SafariExplorer\SE_CodeModel\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\Sunny\Desktop\SpartaGlobal\Content\Week-7_New\SpartaGlobal_EF_Project\SafariExplorer\SE_CodeModel\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\Sunny\Desktop\SpartaGlobal\Content\Week-7_New\SpartaGlobal_EF_Project\SafariExplorer\SE_CodeModel\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Sunny\Desktop\SpartaGlobal\Content\Week-7_New\SpartaGlobal_EF_Project\SafariExplorer\SE_CodeModel\obj\Debug\netcoreapp3.1\SE_CodeModel.csprojAssemblyReference.cache
 C:\Users\Sunny\Desktop\SpartaGlobal\Content\Week-7_New\SpartaGlobal_EF_Project\SafariExplorer\SE_CodeModel\obj\Debug\netcoreapp3.1\SE_CodeModel.AssemblyInfoInputs.cache
 C:\Users\Sunny\Desktop\SpartaGlobal\Content\Week-7_New\SpartaGlobal_EF_Project\SafariExplorer\SE_CodeModel\obj\Debug\netcoreapp3.1\SE_CodeModel.AssemblyInfo.cs
 C:\Users\Sunny\Desktop\SpartaGlobal\Content\Week-7_New\SpartaGlobal_EF_Project\SafariExplorer\SE_CodeModel\obj\Debug\netcoreapp3.1\SE_CodeModel.csproj.CoreCompileInputs.cache
@@ -94,3 +93,4 @@ C:\Users\Sunny\Desktop\SpartaGlobal\Content\Week-7_New\SpartaGlobal_EF_Project\S
 C:\Users\Sunny\Desktop\SpartaGlobal\Content\Week-7_New\SpartaGlobal_EF_Project\SafariExplorer\SE_CodeModel\obj\Debug\netcoreapp3.1\SE_CodeModel.dll
 C:\Users\Sunny\Desktop\SpartaGlobal\Content\Week-7_New\SpartaGlobal_EF_Project\SafariExplorer\SE_CodeModel\obj\Debug\netcoreapp3.1\SE_CodeModel.pdb
 C:\Users\Sunny\Desktop\SpartaGlobal\Content\Week-7_New\SpartaGlobal_EF_Project\SafariExplorer\SE_CodeModel\obj\Debug\netcoreapp3.1\SE_CodeModel.genruntimeconfig.cache
+C:\Users\Sunny\Desktop\SpartaGlobal\Content\Week-7_New\SpartaGlobal_EF_Project\SafariExplorer\SE_CodeModel\obj\Debug\netcoreapp3.1\SE_CodeModel.csprojAssemblyReference.cache

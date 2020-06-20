@@ -27,15 +27,15 @@ namespace SafariExplorerWPF
 		}
 		private void PopulateTextBoxs()
 		{
-			_crudManager.UpdateAnimal();
-			if (_crudManager.SelectedAnimal != null && _crudManager.SelectedAnimalInfo != null)
+			_crudManager.GetRandAnimal();
+			if (_crudManager.RandomSelectedAnimal != null && _crudManager.RandomSelectedAnimalInfo != null)
 			{
-				TextBoxAName.Text = _crudManager.SelectedAnimal.AnimalName;
-				TextBoxADiet.Text = _crudManager.SelectedAnimalInfo.Diet;
-				TextBoxAHeight.Text = _crudManager.SelectedAnimalInfo.Height.ToString();
-				TextBoxALifespan.Text = _crudManager.SelectedAnimalInfo.Lifespan.ToString();
-				TextBoxAMass.Text = _crudManager.SelectedAnimalInfo.Mass.ToString();
-				TextBoxASpeed.Text = _crudManager.SelectedAnimalInfo.Speed.ToString();
+				TextBoxAName.Text = _crudManager.RandomSelectedAnimal.AnimalName;
+				TextBoxADiet.Text = _crudManager.RandomSelectedAnimalInfo.Diet;
+				TextBoxAHeight.Text = _crudManager.RandomSelectedAnimalInfo.Height.ToString();
+				TextBoxALifespan.Text = _crudManager.RandomSelectedAnimalInfo.Lifespan.ToString();
+				TextBoxAMass.Text = _crudManager.RandomSelectedAnimalInfo.Mass.ToString();
+				TextBoxASpeed.Text = _crudManager.RandomSelectedAnimalInfo.Speed.ToString();
 			}
 		}
 
