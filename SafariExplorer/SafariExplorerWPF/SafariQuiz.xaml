@@ -14,10 +14,23 @@
 			<Grid.Background>
 				<ImageBrush ImageSource="/BackGround_Savanna.jpg"/>
 			</Grid.Background>
-			<TextBlock HorizontalAlignment="Left" Margin="554,60,0,0" Text="Safari Quiz" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="40"/>
+			<TextBlock HorizontalAlignment="Left" Margin="391,22,0,0" Text="Safari Quiz" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="72" FontFamily="Castellar"/>
 
 			<Rectangle HorizontalAlignment="Left" Height="240" Margin="244,142,0,0" Stroke="Black" VerticalAlignment="Top" Width="800" Fill="#7F000000"/>
-			<TextBox x:Name="TxtBoxQuestions" HorizontalAlignment="Left" Margin="264,163,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="757" Height="197" IsEnabled="False"/>
+			<TextBox x:Name="TxtBoxQuestions" HorizontalAlignment="Left" Margin="264,163,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="757" Height="197" IsEnabled="False" FontFamily="Freestyle Script" FontSize="48" FontWeight="Bold"/>
+			<Button x:Name="BtnTrue" Content="True" HorizontalAlignment="Left" Margin="395,427,0,0" VerticalAlignment="Top" Height="122" Width="195" FontSize="72" FontFamily="Freestyle Script" BorderBrush="#7F020000" Click="BtnAnswerClicked">
+				<Button.Background>
+					<ImageBrush ImageSource="/Paper_Texture.png" Opacity="1"/>
+				</Button.Background>
+			</Button>
+			<Button x:Name="BtnFalse" Content="False" HorizontalAlignment="Left" Margin="664,427,0,0" VerticalAlignment="Top" Height="122" Width="195" FontSize="72" FontFamily="Freestyle Script" BorderBrush="#7F020000" Click="BtnAnswerClicked">
+				<Button.Background>
+					<ImageBrush ImageSource="/Paper_Texture.png" Opacity="1"/>
+				</Button.Background>
+			</Button>
+			<TextBox x:Name="TextScore" HorizontalAlignment="Left" Margin="492,616,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="270" Height="65" IsEnabled="False" FontFamily="Freestyle Script" FontSize="48" Background="#B2000000" TextAlignment="Center" BorderBrush="{x:Null}" Foreground="White"/>
+			<Button x:Name="BtnBack" Content="Back" HorizontalAlignment="Left" Margin="10,19,0,0" VerticalAlignment="Top" Height="70" Width="75" Click="BtnClick_Back" Background="#7F000604" BorderBrush="{x:Null}" FontSize="24" Foreground="#B2BCEABC"/>
+
 		</Grid>
 
 

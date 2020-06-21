@@ -42,4 +42,13 @@ namespace SE_CodeModel
 
 		public Animal Animal { get; set; }
 	}
+
+	//public class AnimalQA
+	//{
+	//	public string QuestionID { get; set; }
+
+	//	public string Qestion { get; set; }
+
+	//	public string Answer { get; set; }
+	//}
 }

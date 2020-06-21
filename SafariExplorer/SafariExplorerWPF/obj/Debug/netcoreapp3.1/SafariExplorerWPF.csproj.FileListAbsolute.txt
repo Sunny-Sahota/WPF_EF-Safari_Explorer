@@ -13,7 +13,6 @@ C:\Users\Sunny\Desktop\SpartaGlobal\Content\Week-7_C# Project, using WPF,EF\Spar
 C:\Users\Sunny\Desktop\SpartaGlobal\Content\Week-7_C# Project, using WPF,EF\SpartaGlobal_EF_Project\SafariExplorer\SafariExplorerWPF\obj\Debug\netcoreapp3.1\SafariExplorerWPF.g.resources
 C:\Users\Sunny\Desktop\SpartaGlobal\Content\Week-7_C# Project, using WPF,EF\SpartaGlobal_EF_Project\SafariExplorer\SafariExplorerWPF\obj\Debug\netcoreapp3.1\SafariExplorerWPF.AssemblyInfoInputs.cache
 C:\Users\Sunny\Desktop\SpartaGlobal\Content\Week-7_C# Project, using WPF,EF\SpartaGlobal_EF_Project\SafariExplorer\SafariExplorerWPF\obj\Debug\netcoreapp3.1\SafariExplorerWPF.AssemblyInfo.cs
-C:\Users\Sunny\Desktop\SpartaGlobal\Content\Week-7_C# Project, using WPF,EF\SpartaGlobal_EF_Project\SafariExplorer\SafariExplorerWPF\obj\Debug\netcoreapp3.1\SafariExplorerWPF.csproj.CoreCompileInputs.cache
 C:\Users\Sunny\Desktop\SpartaGlobal\Content\Week-7_C# Project, using WPF,EF\SpartaGlobal_EF_Project\SafariExplorer\SafariExplorerWPF\obj\Debug\netcoreapp3.1\SafariExplorerWPF.dll
 C:\Users\Sunny\Desktop\SpartaGlobal\Content\Week-7_C# Project, using WPF,EF\SpartaGlobal_EF_Project\SafariExplorer\SafariExplorerWPF\obj\Debug\netcoreapp3.1\SafariExplorerWPF.pdb
 C:\Users\Sunny\Desktop\SpartaGlobal\Content\Week-7_C# Project, using WPF,EF\SpartaGlobal_EF_Project\SafariExplorer\SafariExplorerWPF\obj\Debug\netcoreapp3.1\SafariExplorerWPF.genruntimeconfig.cache
@@ -124,3 +123,5 @@ C:\Users\Sunny\Desktop\SpartaGlobal\Content\Week-7_C# Project, using WPF,EF\Spar
 C:\Users\Sunny\Desktop\SpartaGlobal\Content\Week-7_C# Project, using WPF,EF\SpartaGlobal_EF_Project\SafariExplorer\SafariExplorerWPF\obj\Debug\netcoreapp3.1\SafariQuiz.baml
 C:\Users\Sunny\Desktop\SpartaGlobal\Content\Week-7_C# Project, using WPF,EF\SpartaGlobal_EF_Project\SafariExplorer\SafariExplorerWPF\obj\Debug\netcoreapp3.1\MenuPage.g.cs
 C:\Users\Sunny\Desktop\SpartaGlobal\Content\Week-7_C# Project, using WPF,EF\SpartaGlobal_EF_Project\SafariExplorer\SafariExplorerWPF\obj\Debug\netcoreapp3.1\MenuPage.baml
+C:\Users\Sunny\Desktop\SpartaGlobal\Content\Week-7_C# Project, using WPF,EF\SpartaGlobal_EF_Project\SafariExplorer\SafariExplorerWPF\obj\Debug\netcoreapp3.1\SafariExplorerWPF.csproj.CoreCompileInputs.cache
+C:\Users\Sunny\Desktop\SpartaGlobal\Content\Week-7_C# Project, using WPF,EF\SpartaGlobal_EF_Project\SafariExplorer\SafariExplorerWPF\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll

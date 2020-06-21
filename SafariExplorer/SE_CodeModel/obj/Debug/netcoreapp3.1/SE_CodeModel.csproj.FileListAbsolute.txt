@@ -1,5 +1,4 @@
 C:\Users\Sunny\Desktop\SpartaGlobal\Content\Week-7_C# Project, using WPF,EF\SpartaGlobal_EF_Project\SafariExplorer\SE_CodeModel\bin\Debug\netcoreapp3.1\SE_CodeModel.exe
-C:\Users\Sunny\Desktop\SpartaGlobal\Content\Week-7_C# Project, using WPF,EF\SpartaGlobal_EF_Project\SafariExplorer\SE_CodeModel\obj\Debug\netcoreapp3.1\SE_CodeModel.csprojAssemblyReference.cache
 C:\Users\Sunny\Desktop\SpartaGlobal\Content\Week-7_C# Project, using WPF,EF\SpartaGlobal_EF_Project\SafariExplorer\SE_CodeModel\obj\Debug\netcoreapp3.1\SE_CodeModel.AssemblyInfoInputs.cache
 C:\Users\Sunny\Desktop\SpartaGlobal\Content\Week-7_C# Project, using WPF,EF\SpartaGlobal_EF_Project\SafariExplorer\SE_CodeModel\obj\Debug\netcoreapp3.1\SE_CodeModel.AssemblyInfo.cs
 C:\Users\Sunny\Desktop\SpartaGlobal\Content\Week-7_C# Project, using WPF,EF\SpartaGlobal_EF_Project\SafariExplorer\SE_CodeModel\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll

@@ -14,8 +14,7 @@ namespace SafariExplorerBuisness
 		public Animal SelectedAnimal { get; set; }
 		public AnimalInfo SelectedAnimalInfo { get; set; }
 
-		public int CurrentID = 0;
-
+		private int _currentID = 0;
 
 		public void GetRandAnimal()
 		{
@@ -26,32 +25,29 @@ namespace SafariExplorerBuisness
 			{
 				int count = 1;
 				string name = "";
-				var query = db.Animals;
-				foreach (var r in query)
+				var queryAnimals = db.Animals;
+				foreach (var result in queryAnimals)
 				{
 					count++;
 					if (count == animalNum)
 					{
-						name = r.AnimalName;
-						
+						name = result.AnimalName;						
 					}
 				}
 				int count2 = 1;
-				int animalsID = 0;
-				var query2 = db.AnimalsInfo;
-				foreach (var res in query2)
+				int animalsID = 0;//may remove, use global instead
+				var queryAnimalInfo = db.AnimalsInfo;
+				foreach (var result in queryAnimalInfo)
 				{
 					count2++;
 					if (count2 == animalNum)
 					{
-						animalsID = res.AnimalId;
-
+						animalsID = result.AnimalId;
 					}
 				}
 
 				RandomSelectedAnimal = db.Animals.Where(a => a.AnimalName == name).FirstOrDefault();
-				RandomSelectedAnimalInfo = db.AnimalsInfo.Where(ai => ai.AnimalId == animalsID).FirstOrDefault(); 
-				
+				RandomSelectedAnimalInfo = db.AnimalsInfo.Where(ai => ai.AnimalId == animalsID).FirstOrDefault(); 	
 			}
 		}
 
@@ -69,12 +65,12 @@ namespace SafariExplorerBuisness
 					select a).Take(1);
 				foreach (var result in queryLatestEntry) 
 				{
-					CurrentID = result.AnimalId;
+					_currentID = result.AnimalId;
 				}
 
 				db.Add(new AnimalInfo
 				{
-					AnimalId = CurrentID,
+					AnimalId = _currentID,
 					Diet = aDiet,
 					Height = aHeight,
 					Lifespan = aLifespan,
@@ -114,34 +110,33 @@ namespace SafariExplorerBuisness
 			}
 		}
 
-		
-		public void SetSelectedAnimalInfo(object selectedItem)
-		{
-			SelectedAnimalInfo = (AnimalInfo)selectedItem;
-			CurrentID = SelectedAnimalInfo.AnimalId;
-		}
-
-		public void SetSelectedAnimal()
-		{
-			using (var db = new SafariExplorerContext())
-			{
-				SelectedAnimal = db.Animals.Where(a => a.AnimalId == CurrentID).FirstOrDefault();
-			}
-		}
-
 		public void DeleteAnimal(int aId)
 		{
 			using (var db = new SafariExplorerContext())
 			{
 				var queryAnimal = db.Animals.Where(a => a.AnimalId == aId).FirstOrDefault();
 				var queryAnimalInfo = db.AnimalsInfo.Where(a => a.AnimalId == aId).FirstOrDefault();
-				
+
 				db.Remove(queryAnimal);
 				db.Remove(queryAnimalInfo);
 				db.SaveChanges();
 			}
 		}
 
-		
+
+		public void SetSelectedAnimalInfo(object selectedItem)
+		{
+			SelectedAnimalInfo = (AnimalInfo)selectedItem;
+			_currentID = SelectedAnimalInfo.AnimalId;
+		}
+
+		public void SetSelectedAnimal()
+		{
+			using (var db = new SafariExplorerContext())
+			{
+				SelectedAnimal = db.Animals.Where(a => a.AnimalId == _currentID).FirstOrDefault();
+			}
+		}
+	
 	}
 }

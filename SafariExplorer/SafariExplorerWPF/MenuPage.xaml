@@ -14,12 +14,12 @@
 				<ImageBrush ImageSource="/BackGround_Savanna.jpg"/>
 			</Grid.Background>
 
-			<Button x:Name="BtnStartSafari" Content="Start Safari" HorizontalAlignment="Left" Margin="183,405,0,0" VerticalAlignment="Top" Height="95" Width="192" Click="BtnStartSafari_Click" FontFamily="Freestyle Script" FontSize="48" BorderBrush="#4C000000">
+			<Button x:Name="BtnStartSafari" Content="Safari" HorizontalAlignment="Left" Margin="183,405,0,0" VerticalAlignment="Top" Height="95" Width="192" Click="BtnStartSafari_Click" FontFamily="Freestyle Script" FontSize="48" BorderBrush="#4C000000">
 				<Button.Background>
 					<ImageBrush ImageSource="/Paper_Texture.png"/>
 				</Button.Background>
 			</Button>
-			<Button x:Name="BtnStartQuiz" Content="Start Quiz" HorizontalAlignment="Center" Margin="0,405,0,0" VerticalAlignment="Top" Height="95" Width="192" Click="BtnStartQuiz_Click" FontFamily="Freestyle Script" FontSize="48" BorderBrush="#4C000000">
+			<Button x:Name="BtnStartQuiz" Content="Quiz" HorizontalAlignment="Center" Margin="0,405,0,0" VerticalAlignment="Top" Height="95" Width="192" Click="BtnStartQuiz_Click" FontFamily="Freestyle Script" FontSize="48" BorderBrush="#4C000000">
 				<Button.Background>
 					<ImageBrush ImageSource="/Paper_Texture.png"/>
 				</Button.Background>

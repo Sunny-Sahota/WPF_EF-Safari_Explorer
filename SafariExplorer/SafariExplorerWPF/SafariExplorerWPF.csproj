@@ -11,6 +11,15 @@
     <None Remove="Character.png" />
     <None Remove="Paper_Texture.png" />
     <None Remove="Rock_Texture.jpg" />
+    <None Remove="Rock_Texture2.jpg" />
+    <None Remove="SpeechBubble.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
   </ItemGroup>
 
   <ItemGroup>
@@ -22,6 +31,8 @@
     <Resource Include="Character.png" />
     <Resource Include="Paper_Texture.png" />
     <Resource Include="Rock_Texture.jpg" />
+    <Resource Include="Rock_Texture2.jpg" />
+    <Resource Include="SpeechBubble.png" />
   </ItemGroup>
 
 </Project>

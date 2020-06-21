@@ -39,14 +39,14 @@ namespace SafariExplorerWPF
 			}
 		}
 
-		private void BtnClickHomePage(object sender, RoutedEventArgs e)
+		private void BtnClick_Back(object sender, RoutedEventArgs e)
 		{
-			//var newWin = new MainWindow();
-			//newWin.Show();
-			if (this.NavigationService.CanGoBack)
-			{
-				this.NavigationService.GoBack();
-			}
+			_safariPage.Navigate(new MenuPage());
+		}
+
+		private void BtnClick_Searching(object sender, RoutedEventArgs e)
+		{
+			PopulateTextBoxs();
 		}
 	}
 }

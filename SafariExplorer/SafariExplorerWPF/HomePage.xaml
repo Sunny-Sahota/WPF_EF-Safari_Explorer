@@ -10,6 +10,7 @@
 	<StackPanel>
 		<Frame x:Name="_safariPage"/>
 		<Grid Height="720" Width="1280">
+
 			<Grid.Background>
 				<ImageBrush ImageSource="/BackGround_Savanna.jpg"/>
 			</Grid.Background>
@@ -20,14 +21,32 @@
 					<ImageBrush ImageSource="/Character.png"/>
 				</Rectangle.Fill>
 			</Rectangle>
-			<TextBox x:Name="TextBoxAName" HorizontalAlignment="Left" Margin="334,162,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="102" Height="48"/>
-			<TextBox x:Name="TextBoxADiet" HorizontalAlignment="Left" Margin="436,162,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="102" Height="48"/>
-			<TextBox x:Name="TextBoxAHeight" HorizontalAlignment="Left" Margin="538,162,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="102" Height="48"/>
-			<TextBox x:Name="TextBoxALifespan" HorizontalAlignment="Left" Margin="640,162,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="102" Height="48"/>
-			<TextBox x:Name="TextBoxAMass" HorizontalAlignment="Left" Margin="742,162,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="102" Height="48"/>
-			<TextBox x:Name="TextBoxASpeed" HorizontalAlignment="Left" Margin="837,162,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="102" Height="48"/>
-			<Button x:Name="BtnHomePage" Content="HomePage" HorizontalAlignment="Left" Margin="1100,604,0,0" VerticalAlignment="Top" Height="70" Width="136" Click="BtnClickHomePage"/>
+			<Rectangle HorizontalAlignment="Left" Margin="518,-158,0,0" VerticalAlignment="Top" Width="316" Height="820" Fill="#99000000" RenderTransformOrigin="0.5,0.5">
+				<Rectangle.RenderTransform>
+					<TransformGroup>
+						<ScaleTransform/>
+						<SkewTransform/>
+						<RotateTransform Angle="90"/>
+						<TranslateTransform/>
+					</TransformGroup>
+				</Rectangle.RenderTransform>
+			</Rectangle>
 
+			<TextBlock HorizontalAlignment="Left" Margin="285,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Background="#F2FFFFFF" Height="272" Width="784" FontFamily="Freestyle Script" FontSize="48"><Run Text="Wooow... Look a                  "/><LineBreak/><Run Text="Did you know they are     "/><Run Text="      "/><Run Text="  "/><Run Text=" ,and can grow up to     m tall."/><Run Text=" "/><Run Text="These animals can live up to     "/><Run Text="  "/><Run Text="years and have been recorded to run   "/><Run Text="     "/><Run Text="Km/h. "/><LineBreak/><Run Text="Which is amazing considering their weight of     "/><Run Text="  "/><Run Text="   "/><Run Text="Kgs."/></TextBlock>
+
+			<TextBox x:Name="TextBoxAName" HorizontalAlignment="Left" Margin="494,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="375" Height="48" FontFamily="Freestyle Script" FontSize="48" Background="#4CFFFFFF" BorderBrush="{x:Null}"/>
+			<TextBox x:Name="TextBoxADiet" HorizontalAlignment="Left" Margin="575,172,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="154" Height="48" FontFamily="Freestyle Script" FontSize="48" TextAlignment="Center" Background="#4CFFFFFF" BorderBrush="{x:Null}"/>
+			<TextBox x:Name="TextBoxAHeight" HorizontalAlignment="Left" Margin="981,172,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="51" Height="48" FontFamily="Freestyle Script" FontSize="48" TextAlignment="Center" Background="#4CFFFFFF" BorderBrush="{x:Null}"/>
+			<TextBox x:Name="TextBoxALifespan" HorizontalAlignment="Left" Margin="704,225,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="70" Height="55" FontFamily="Freestyle Script" FontSize="48" TextAlignment="Center" Background="#4CFFFFFF" BorderBrush="{x:Null}"/>
+			<TextBox x:Name="TextBoxAMass" HorizontalAlignment="Left" Margin="842,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="108" Height="54" FontFamily="Freestyle Script" FontSize="48" TextAlignment="Center" Background="#4CFFFFFF" BorderBrush="{x:Null}"/>
+			<TextBox x:Name="TextBoxASpeed" HorizontalAlignment="Left" Margin="485,290,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="82" Height="48" FontFamily="Freestyle Script" FontSize="48" TextAlignment="Center" Background="#4CFFFFFF" BorderBrush="{x:Null}"/>
+
+			<Button x:Name="BtnBack" Content="Back" HorizontalAlignment="Left" Margin="10,19,0,0" VerticalAlignment="Top" Height="70" Width="75" Click="BtnClick_Back" Background="#7F000604" BorderBrush="{x:Null}" FontSize="24" Foreground="#B2BCEABC"/>
+			<Button x:Name="BtnSearching" Content="Keep Searching" HorizontalAlignment="Left" Margin="349,489,0,0" VerticalAlignment="Top" Height="100" Width="177" FontFamily="Freestyle Script" FontSize="36" BorderBrush="#4C000000" Click="BtnClick_Searching">
+				<Button.Background>
+					<ImageBrush ImageSource="/Paper_Texture.png"/>
+				</Button.Background>
+			</Button>
 
 		</Grid>
 	</StackPanel>
