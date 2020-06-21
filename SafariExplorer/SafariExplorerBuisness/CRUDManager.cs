@@ -63,25 +63,14 @@ namespace SafariExplorerBuisness
 				db.Add(new Animal { AnimalName = aName });
 				db.SaveChanges();
 
-				var q =
+				var queryLatestEntry =
 					(from a in db.Animals
 					orderby a.AnimalId descending
 					select a).Take(1);
-				foreach (var r in q) 
+				foreach (var result in queryLatestEntry) 
 				{
-					CurrentID = r.AnimalId;
+					CurrentID = result.AnimalId;
 				}
-
-				var getAnimalInfo = db.AnimalsInfo.Where(a => a.AnimalId == CurrentID).FirstOrDefault();
-
-				//var query = db.Animals.OrderBy(a => a.AnimalId).FirstOrDefault();
-
-				//var query2 =
-				//	from a in db.Animals
-				//	orderby a.AnimalId descending
-				//	select a;
-
-				//int localID = query2.AnimalId;
 
 				db.Add(new AnimalInfo
 				{
@@ -134,8 +123,6 @@ namespace SafariExplorerBuisness
 
 		public void SetSelectedAnimal()
 		{
-			//I want to set an animal based upon the animalInfo Selected 
-			//SelectedAnimal = (Animal)selectedItem;
 			using (var db = new SafariExplorerContext())
 			{
 				SelectedAnimal = db.Animals.Where(a => a.AnimalId == CurrentID).FirstOrDefault();
@@ -154,5 +141,7 @@ namespace SafariExplorerBuisness
 				db.SaveChanges();
 			}
 		}
+
+		
 	}
 }

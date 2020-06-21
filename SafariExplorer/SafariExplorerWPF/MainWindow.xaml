@@ -12,10 +12,14 @@
 			<Grid.Background>
 				<ImageBrush ImageSource="/BackGround_Savanna.jpg"/>
 			</Grid.Background>
+			<TextBlock x:Name="TxtBlockTitle" HorizontalAlignment="Center" Margin="0,101,0,0" Text="Safari Explorer" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Castellar" FontSize="90" FontWeight="Bold" Foreground="#E5000000"/>
+			<Button x:Name="Btn_GoToMenu" Content="Start" HorizontalAlignment="Center" Margin="0,420,0,0" VerticalAlignment="Top" Height="108" Width="216" FontFamily="Freestyle Script" FontSize="72" BorderBrush="#66060000" Click="BtnClick_GoToMenu">
+				<Button.Background>
+					<ImageBrush ImageSource="/Paper_Texture.png"/>
+				</Button.Background>
+			</Button>
 
-			<Button x:Name="BtnStartSafari" Content="Start Safari" HorizontalAlignment="Left" Margin="183,405,0,0" VerticalAlignment="Top" Height="95" Width="192" Click="BtnStartSafari_Click"/>
-			<Button x:Name="BtnStartQuiz" Content="Start Quiz" HorizontalAlignment="Center" Margin="0,405,0,0" VerticalAlignment="Top" Height="95" Width="192" Click="BtnStartQuiz_Click"/>
-			<Button x:Name="BtnJournal" Content="Open Journal" HorizontalAlignment="Left" Margin="903,405,0,0" VerticalAlignment="Top" Height="95" Width="192" Click="BtnClickOpenJournal"/>
+
 		</Grid>
 	</StackPanel>
 </Window>

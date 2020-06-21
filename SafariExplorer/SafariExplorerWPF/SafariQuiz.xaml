@@ -16,6 +16,8 @@
 			</Grid.Background>
 			<TextBlock HorizontalAlignment="Left" Margin="554,60,0,0" Text="Safari Quiz" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="40"/>
 
+			<Rectangle HorizontalAlignment="Left" Height="240" Margin="244,142,0,0" Stroke="Black" VerticalAlignment="Top" Width="800" Fill="#7F000000"/>
+			<TextBox x:Name="TxtBoxQuestions" HorizontalAlignment="Left" Margin="264,163,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="757" Height="197" IsEnabled="False"/>
 		</Grid>
 
 

@@ -1,0 +1,36 @@
+﻿<Page x:Class="SafariExplorerWPF.MenuPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:SafariExplorerWPF"
+      mc:Ignorable="d" 
+      d:DesignHeight="720" d:DesignWidth="1280"
+      Title="MenuPage">
+	<StackPanel>
+		<Frame x:Name="_menuFrame"/>
+		<Grid Height= "720" Width ="1280">
+			<Grid.Background>
+				<ImageBrush ImageSource="/BackGround_Savanna.jpg"/>
+			</Grid.Background>
+
+			<Button x:Name="BtnStartSafari" Content="Start Safari" HorizontalAlignment="Left" Margin="183,405,0,0" VerticalAlignment="Top" Height="95" Width="192" Click="BtnStartSafari_Click" FontFamily="Freestyle Script" FontSize="48" BorderBrush="#4C000000">
+				<Button.Background>
+					<ImageBrush ImageSource="/Paper_Texture.png"/>
+				</Button.Background>
+			</Button>
+			<Button x:Name="BtnStartQuiz" Content="Start Quiz" HorizontalAlignment="Center" Margin="0,405,0,0" VerticalAlignment="Top" Height="95" Width="192" Click="BtnStartQuiz_Click" FontFamily="Freestyle Script" FontSize="48" BorderBrush="#4C000000">
+				<Button.Background>
+					<ImageBrush ImageSource="/Paper_Texture.png"/>
+				</Button.Background>
+			</Button>
+			<Button x:Name="BtnJournal" Content="Open Journal" HorizontalAlignment="Left" Margin="903,405,0,0" VerticalAlignment="Top" Height="95" Width="192" Click="BtnClickOpenJournal" FontFamily="Freestyle Script" FontSize="48" BorderBrush="#4C000000">
+				<Button.Background>
+					<ImageBrush ImageSource="/Paper_Texture.png"/>
+				</Button.Background>
+			</Button>
+
+			<TextBlock x:Name="TxtBlockWelcome" Text="Welcome to the Safari" TextWrapping="Wrap" Margin="121,52,121,558" FontFamily="Castellar" FontSize="72"/>
+		</Grid>
+	</StackPanel>
+</Page>

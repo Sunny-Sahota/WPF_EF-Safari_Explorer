@@ -23,23 +23,12 @@ namespace SafariExplorerWPF
 		public MainWindow()
 		{
 			InitializeComponent();
-			Application.Current.MainWindow = this;
-			
+				
 		}
 
-		private void BtnStartSafari_Click(object sender, RoutedEventArgs e)
+		private void BtnClick_GoToMenu(object sender, RoutedEventArgs e)
 		{
-			_mainFrame.Navigate(new HomePage());
-		}
-
-		private void BtnStartQuiz_Click(object sender, RoutedEventArgs e)
-		{
-			_mainFrame.Navigate(new SafariQuiz());
-		}
-
-		private void BtnClickOpenJournal(object sender, RoutedEventArgs e)
-		{
-			_mainFrame.Navigate(new JournalPage());
+			_mainFrame.Navigate(new MenuPage());
 		}
 	}
 }

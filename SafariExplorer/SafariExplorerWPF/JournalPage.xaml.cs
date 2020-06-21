@@ -99,5 +99,10 @@ namespace SafariExplorerWPF
 			//PopulateAnimalFields();
 
 		}
+
+		private void BtnClick_Back(object sender, RoutedEventArgs e)
+		{
+			_journalPage.Navigate(new MenuPage());
+		}
 	}
 }
