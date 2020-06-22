@@ -173,7 +173,7 @@ namespace SafariExplorerWPF {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/SafariExplorerWPF;component/addanimalwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/SafariExplorerWPF;V1.0.0.0;component/addanimalwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\AddAnimalWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
