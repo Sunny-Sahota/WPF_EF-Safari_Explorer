@@ -13,7 +13,7 @@
 
 ##### Sprint Review:
 ###### Start of Sprint:
-<img src = "ReadME_Images/Sprint_1_Start.jpg" width="400">
+<img src = "ReadME_Images/Sprint_1_Start.jpg">
 
 ###### End of Sprint:
 <img src = "ReadME_Images/Sprint_1_END.jpg" width="400" height="800">
@@ -102,7 +102,7 @@ Starting project sooner or reavaluating task priority in product backlog would h
 <img src = "ReadME_Images/Sprint_5_Start.jpg">
 
 ###### End of Sprint:
-<img src = "ReadME_Images/Sprint_5_END.jpg"  >
+<img src = "ReadME_Images/Sprint_5_END.jpg" >
 
 ###### Actions for not done:
 Prioritised the most important tasks for this sprints goal.
@@ -113,3 +113,25 @@ Prioritised the most important tasks for this sprints goal.
 Fully implemented the add/Update methods and created relevant gui logic around it to display a professional format to user.
 ###### Improvements:
 To get feedback from stakeholders and piers on the state of the program in order to facilitate necessary changes to the product.
+
+### Project Retrospective
+
+>In this weeklong project I have learned many skills and techniques through completing tasks within the project backlog. Here are my most important:
+>1. How to create a code model and implement migrations.
+>2. Frames and navigation methods.
+>3. Implementing CRUD functionality.
+>4. Testing CRUD.
+>5. Formatting xaml to facilitate a professional gui layer.
+>6. Created a random generator that pulls an animal out of the database and displays it to the front end.
+>7. Implemented and agile approach throughout the project, using Kanban to track the progress of tasks within project.
+###### What I would do differently next time:
+For the next project I think it is vital to understand the importance of tasks and to order them correctly. So that implementation of core features can be done earlier in the project. This allows for more feedback to be given on harder tasks completed. 
+>For example, implementing CRUD functionalities during sprint 3 rather than 4 would have allowed me to get feedback and to test all before Friday. Which was the last chance to get feedback on work done. This would have highlighted issues within the program, my piers faced and overcame. Preventing me from doing similar mistakes.
+###### What I will do next:
+Now that I have implemented and tested CRUD, it will allow me to make a more tailor-made program and include all the features I had only partially added. For example:
+>1. Random Animal Generated Feature, the next iteration of this would be to randomly select an animal and populate it in a User table of animals encountered (local user data table) rather than animals available (Pre-existing animal data). 
+>2. The next feature to be implemented, is to then allow the user to take a quiz based upon a threshold of animals encountered for each quiz level. The more animals encountered the more quizzes the high the score. At present only a temporary solution exists for demonstration purposes. 
+>3. A user experience level could have been created depending on the how many correct answers and total animals discovered. This would allow me to map all the data into the user table with a login. 
+>3. Finally, more error handling that prevents users implementing invalid characters depending on the box content. Additionally, creating Drop down lists where necessary to prevent human error even further. Research was carried out but not implemented, the corresponding methods where regex and combo box to complete this feature. 
+
+I have highlighted features that would be built on pre-existing foundations, to give a better understanding of the true intentions I had with the application at the start of the project.
