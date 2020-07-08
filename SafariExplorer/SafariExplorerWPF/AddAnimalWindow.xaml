@@ -20,15 +20,15 @@
 			<Label x:Name="LabelSpeed" Content="Speed (km/h)" Margin="14,409,256,-438" Background="#4C000000" FontSize="48" FontFamily="Freestyle Script"/>
 
 
-			<TextBox x:Name="TxtName" TextWrapping="Wrap" Margin="250,88,16,-117" Background="#CCFFFFFF"/>
+			<TextBox x:Name="TxtName" TextWrapping="Wrap" Margin="250,88,16,-117" Background="#CCFFFFFF" FontSize="24"/>
 			<Button x:Name="BtnAddNew" Content="Create" Margin="154,488,155,-526" Click="BtnAddNew_Click" Background="#B2FFFDFD" FontFamily="Freestyle Script" FontSize="48"/>
-			<TextBox x:Name="TxtDiet" TextWrapping="Wrap" Margin="250,153,16,-178" Background="#CCFFFFFF"/>
-			<TextBox x:Name="TxtHeight" TextWrapping="Wrap" Margin="250,214,16,-243" Background="#CCFFFFFF"/>
-			<TextBox x:Name="TxtLifespan" TextWrapping="Wrap" Margin="250,279,16,-308" Background="#CCFFFFFF"/>
-			<TextBox x:Name="TxtMass" TextWrapping="Wrap" Margin="250,344,16,-373" Background="#CCFFFFFF"/>
-			<TextBox x:Name="TxtSpeed" TextWrapping="Wrap" Margin="250,409,16,-438" Background="#CCFFFFFF"/>
-		
-		<TextBlock x:Name="TxtBlockCreateAnimal" Text="Create Animal" TextWrapping="Wrap" Margin="14,16,16,-31" FontFamily="Castellar" FontSize="48" HorizontalAlignment="Center"/>
+			<TextBox x:Name="TxtDiet" TextWrapping="Wrap" Margin="250,153,16,-178" Background="#CCFFFFFF" FontSize="24"/>
+			<TextBox x:Name="TxtHeight" TextWrapping="Wrap" Margin="250,214,16,-243" Background="#CCFFFFFF" FontSize="24"/>
+			<TextBox x:Name="TxtLifespan" TextWrapping="Wrap" Margin="250,279,16,-308" Background="#CCFFFFFF" FontSize="24"/>
+			<TextBox x:Name="TxtMass" TextWrapping="Wrap" Margin="250,344,16,-373" Background="#CCFFFFFF" FontSize="24"/>
+			<TextBox x:Name="TxtSpeed" TextWrapping="Wrap" Margin="250,409,16,-438" Background="#CCFFFFFF" FontSize="24"/>
+
+			<TextBlock x:Name="TxtBlockCreateAnimal" Text="Create Animal" TextWrapping="Wrap" Margin="14,16,16,-31" FontFamily="Castellar" FontSize="48" HorizontalAlignment="Center"/>
 		</Grid>
 	</StackPanel>
 </Window>

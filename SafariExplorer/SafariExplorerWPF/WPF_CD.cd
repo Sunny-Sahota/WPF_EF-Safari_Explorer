@@ -9,7 +9,7 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="SafariExplorerWPF.HomePage">
-    <Position X="7" Y="4" Width="1.5" />
+    <Position X="7" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AABAAAAAAAAAAAAAEAAAAAAAAAgAAAAAAgAAAAAAAAA=</HashCode>
       <FileName>HomePage.xaml.cs</FileName>
@@ -17,7 +17,7 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="SafariExplorerWPF.JournalPage">
-    <Position X="9" Y="4" Width="1.5" />
+    <Position X="9" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>QABAAAACQABAAAAAAAAAAAAABAAAAAAAAgAAgACAAAA=</HashCode>
       <FileName>JournalPage.xaml.cs</FileName>
@@ -33,7 +33,7 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="SafariExplorerWPF.MenuPage">
-    <Position X="5" Y="4" Width="1.5" />
+    <Position X="5" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAIAAAAAAAAAAAABAA=</HashCode>
       <FileName>MenuPage.xaml.cs</FileName>
@@ -41,7 +41,7 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="SafariExplorerWPF.SafariQuiz">
-    <Position X="11" Y="4" Width="1.5" />
+    <Position X="11" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAEAAACQAAABAAAgAABAAAAAA=</HashCode>
       <FileName>SafariQuiz.xaml.cs</FileName>

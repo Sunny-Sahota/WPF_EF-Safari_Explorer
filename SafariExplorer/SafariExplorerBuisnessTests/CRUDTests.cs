@@ -42,7 +42,6 @@ namespace SafariExplorerBuisnessTests
 			using (var db = new SafariExplorerContext())
 			{
 				int rowAfterCount = db.Animals.ToList().Count;
-				//testPassed = rowAfterCount == rowBeforeCount + 1;
 				if (rowAfterCount != rowBeforeCount) { testPassed = true; }
 				Assert.IsTrue(testPassed);
 			}
@@ -71,10 +70,7 @@ namespace SafariExplorerBuisnessTests
 			int currentID =  0;
 			int correctDataCount = 0;
 
-			AnimalInfo aiOfUpdates = new AnimalInfo(); //Info on updated animal
-
-			//Adding original data 
-			
+			//Adding original data 		
 			//Add place holder animal to generate space in database
 			_crudManager.AddAnimal(
 				aName: "TestDefault",

@@ -76,9 +76,10 @@ namespace SafariExplorerWPF
 			int m = Int32.Parse(TextBoxMass.Text);
 			int s = Int32.Parse(TextBoxSpeed.Text);
 			_crudManager.UpdateAnimalEntry(aID:id,aNAme:TextBoxName.Text, aDiet: TextBoxDiet.Text, aHeight:h, aLifespan:l, aMass:m, aSpeed:s);
-
+			//Populate list
 			ListBoxAnimals.ItemsSource = null;
 			PopulateListBox();
+			//Populate text boxes
 			ListBoxAnimals.SelectedItem = _crudManager.SelectedAnimalInfo;
 			PopulateAnimalFields();
 		}

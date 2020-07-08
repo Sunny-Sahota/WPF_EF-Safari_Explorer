@@ -23,7 +23,7 @@ namespace SafariExplorerBuisness
 			
 			using (var db = new SafariExplorerContext())
 			{
-				int count = 1;
+				int count = 0;
 				string name = "";
 				var queryAnimals = db.Animals;
 				foreach (var result in queryAnimals)
@@ -34,7 +34,7 @@ namespace SafariExplorerBuisness
 						name = result.AnimalName;						
 					}
 				}
-				int count2 = 1;
+				int count2 = 0;
 				int animalsID = 0;//may remove, use global instead
 				var queryAnimalInfo = db.AnimalsInfo;
 				foreach (var result in queryAnimalInfo)

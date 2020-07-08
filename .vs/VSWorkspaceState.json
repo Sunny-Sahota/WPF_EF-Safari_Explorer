@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\SafariExplorerBuisness"
+    "\\SafariExplorer\\SafariExplorerBuisness",
+    "\\SafariExplorer\\SafariExplorerBuisnessTests",
+    "\\SafariExplorer\\SafariExplorerWPF"
   ],
-  "SelectedNode": "\\README.md",
   "PreviewInSolutionExplorer": false
 }
